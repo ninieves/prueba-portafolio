@@ -1,0 +1,36 @@
+.fondo__navbar{
+    background-color: #ffffff;
+    font-family: 'Cabin', sans-serif;
+    position: fixed;
+    height: 100px;
+    width: auto;
+
+}
+
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+
+}
+.icono__logo{
+    height: 100px;
+
+}
+.imagen__principal{
+    
+}
+.texto__sobremi{
+    text-align: left;
+    width: 30%;
+    padding: 20px 70px 50px 6px;
+}
+.foto__ninive{
+    height: 200px;
+    object-fit: cover;
+
+}
+.texto__sobremi, .foto__ninive{
+    display: inline-block;
+}
+.iconos{
+    
+}
