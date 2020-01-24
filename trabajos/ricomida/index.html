@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ricomida</title>
+    <!--css bootstrap-->
+    <script src="https://kit.fontawesome.com/41b8753ddc.js" crossorigin="anonymous"></script>  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--hoja de estilos css-->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <!--este es el llamado para los iconos-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"> 
+<!--tipografia de googlefonts-->
+<link href="https://fonts.googleapis.com/css?family=Cabin|Lobster&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="fondo__navbar">
+        <nav class="container navbar navbar-expand-lg navbar-dark fondo__navbar">
+<div class="navbar-brand" href="#"><h2>Ricomida</h2></div>           
+            <!--<div id="container px-3"></div></div>>-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Recetas</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
+            </div>
+        </nav> 
+    </div>
+    <!--imagen principal-->
+    <header class="encabezado">
+      <div class="container">
+         <hr class="barra__separacion barra__carrusel d-sm-block d-lg-none">
+          <div class="row justify-content-md-center mt-4 mb-5">
+              <div class="col-12 col-lg-6">
+                  <img src="Assets/img/principal.jpg" alt="pizza" class="img-fluid">
+              </div>
+              <div class="col-12 col-lg-6">
+                  <h1 class="text-center text-lg-left titulo__encabezado">PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h1>
+                  <hr>
+                  <p class="mt-4 text-center text-lg-left bajada__encabezado">110 MIN / 6 A 8 PORCIONES</p>
+                  <div class="mt-4 text-center text-lg-left botones__encabezado">
+                     <button type="submit" class="btn btn-outline-dark" data-toggle="tooltip" data-placement="bottom" title="Presiona para enviar a tu correo">Enviar por correo</button> 
+                     <button type="submit" class="btn btn-outline-dark ml-4" data-toggle="tooltip" data-placement="right" title="Agrega esta receta a tus favoritos">Añadir a favoritos</button>
+                 </div>
+              </div>
+          </div>
+      </div>
+  </header> 
+
+<!--carrusel de fotos--> 
+<section class="carrusel mt-5">
+  <div class="container d-none d-lg-block">
+         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+             <ol class="carousel-indicators">
+               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+             </ol>
+             <div class="carousel-inner">
+               <div class="carousel-item active">
+                 <div class="row">
+                     <img class="col-3" src="Assets/img/slider-1.png" alt="slider1">
+                     <img class="col-3" src="Assets/img/slider-2.png" alt="slider1">
+                     <img class="col-3" src="Assets/img/slider-3.png" alt="slider1">
+                     <img class="col-3" src="Assets/img/slider-4.png" alt="slider1">
+                 </div>
+               </div>
+               <div class="carousel-item">
+                 <div class="row">
+                     <img class="col-3" src="Assets/img/slider-5.png" alt="slider1">
+                     <img class="col-3" src="Assets/img/slider-6.png" alt="slider1">
+                     <img class="col-3" src="Assets/img/slider-7.png" alt="slider1">
+                     <img class="col-3" src="Assets/img/slider-8.png" alt="slider1">
+                 </div>
+               </div>
+             </div>
+             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="sr-only">Previous</span>
+             </a>
+             <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="sr-only">Next</span>
+             </a>
+          
+            </div>
+            <div class="espacio_grande"></div>
+  <hr>
+  </div>
+  
+</section>
+<!--texto de receta-->
+<div class="receta">
+<div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-6">
+          <h3>Ingredientes</h3>
+          <hr>
+          <ul>
+            <li>1 kg de harina de trigo de fuerza</li>
+            <br>
+           <li>560 ml litro de agua fría</li> 
+           <br>
+           <li>25 gr. de sal</li>
+           <br>
+           <li>25 ml de aceite de oliva virgen extra</li> 
+           <br>
+           <li>14 gr. de levadura fresca de panadero o bien levadura en grano liofilizada de panadería (4-5 g)</li> 
+          </ul>
+
+      </div>
+      <div class="col-12 col-lg-6">
+        <h3>Preparación</h3>
+        <hr>
+        <ol>
+          <li>En un bol grande introducimos parte de la harina de fuerza de trigo. Dejamos unas 4 cucharadas de harina separadas para ir engordando la masa.
+            Con una cuchara hacemos un hoyo en el centro del bol y echamos la levadura disuelta en el agua. </li>
+            <br>
+           <li>Batimos con una cuchara de madera desde el centro hacia afuera y vamos poco a poco mezclando con la harina.</li>
+            <br>
+            <li>Añadimos el aceite de oliva virgen extra y la sal. Es importante que la sal y la levadura no entren en contacto directo para no tener problemas en el proceso de fermentación.
+            Seguimos removiendo lo que empieza a ser la masa, por ahora será una mezcla pegajosa pero firme.</li>
+            <br>
+            <li>Preparamos la zona donde vamos a amasar, por ejemplo la encimera de la cocina es perfecta.</li>
+        </ol>
+        
+      </div>
+    </div>
+   
+</div>
+
+</div>
+
+<div class="espacio"></div>
+<!--recetas relacionadas card bootstrap-->
+<div class="container">
+  <hr>
+  <h1>RECETAS RELACIONADAS</h1>
+<div class="row justify-content-md-center mt-4">
+    <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+      
+        <div class="card">
+            <img src="./assets/img/recipe-card-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">PANQUEQUES CON MANJAR Y CREMA</h5>
+              <p class="card-text">Some quick example text to build on the card title and make.</p>
+            </div>
+            </ul>
+           
+          </div>
+    </div>
+
+        <div class="col-lg-4 col-md-6 col sm-12 col-12">
+          <div class="card">
+            <img src="./assets/img/recipe-card-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">TIRAMISÚ</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+           
+           
+    
+          </div></div>
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12" >
+          <div class="card">
+            <img src="./assets/img/recipe-card-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">PLATEADA</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+</div>
+</div>
+</div>
+<div class="espacio">
+
+</div> 
+<!--SUSCRIBETE A NUESTRO NEWSLETTER-->
+
+<section class="newsletter">
+    <h4>SUSCRÍBETE EN NUESTRO NEWSLETTER</h4>
+    <P>y obtén las mejores recetas que tenemos en <span class="ricomida">Ricomida</span></P>
+    <button type="button" class="btn btn-outline-light">Empezar</button>
+
+    <!--contacto-->
+    <div class="contacto">
+      <a class="typeform-share button" href="https://ninive382502.typeform.com/to/U0SJKH" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:white;color:#DC3545;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:16px;line-height:30px;text-align:center;margin:0;height:40px;padding:5px;border-radius:5px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank"> ¡Contacto!  </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+
+
+
+
+   
+     </div>
+
+
+</section>
+<footer>
+    <h3>Ricomida</h3>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!--js js js js js js js-->
+<script src="Assets/js/script.js"></script>
+
+
+
+</body>
+</html>

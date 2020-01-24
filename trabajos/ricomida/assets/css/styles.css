@@ -1,0 +1,109 @@
+.fondo__navbar{
+    background-color: #373a3C;
+    font-family: 'Cabin', sans-serif;
+
+}
+
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+
+}
+body{
+    font-family: 'Cabin', sans-serif;
+}
+h1{
+    text-align: center;
+    text-size-adjust: 3rem;
+    padding-top: 25px;
+}
+   
+.imagen__principal{
+    width: 600px;
+    height: auto;
+
+}
+.mb-0{
+    padding-top: 100px;
+}
+header{
+    margin-bottom: 5rem;
+}
+.titulo__encabezado{
+    font-weight: 700;
+    font-size: 3.3rem;
+}
+
+.bajada__encabezado{
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.botones__encabezado{
+    color: #000000;
+}
+.ricomida{
+    font-family: 'Lobster', cursive;
+    color: white;
+
+}
+hr{
+        height: 2px;
+        background-color: black;
+}
+ol{
+    list-style-position: inside;
+}
+
+.linea__principal{
+    border: black 1px;
+}
+
+.carousel-indicators{
+    bottom: -70px;
+    margin-bottom: 1rem;
+}
+.carousel-indicators li{
+    background-color: #373A3C !important;
+    border-radius: 50%;
+    height: 13pt;
+    width: 13pt;
+}
+.receta{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.newsletter{
+    background-color: #dc3545;
+    color: white;
+    text-align: center;
+    padding: 100px;
+    width: auto;
+    height: 400px;
+}
+footer{
+    font-family: 'Lobster', cursive;
+    background-color: #373a3C;
+    color: #ffffff;
+    text-align: center;
+    width: auto;
+    height: 80px;
+    padding-top: 30px;
+
+}
+@media (max-width: 575.98px) { 
+    .titulo__encabezado{
+        font-size: 30px;
+        text-align: left;
+    }
+}
+.contacto{
+    padding-top: 30px;
+}
+.espacio{
+    height: 30px;
+}
+.espacio_grande{
+    height: 100px;
+}

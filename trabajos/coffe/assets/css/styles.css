@@ -1,0 +1,182 @@
+nav{
+    display: flex;
+    width: 100vw;
+    height: 80px;
+    align-items: center;
+    background-color: black;
+    position: fixed;    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+a:hover{
+    text-decoration: none;
+}
+
+.navegador__negro{
+    text-decoration: none;
+    margin-top: 0;
+}
+
+.nav__logo {
+    width: 40px;
+    margin-left: 50px;
+    background-color: white;
+    fill: white;
+}
+.icono svg{
+    width: 30px;
+    fill: #ffffff;
+    align-items: centerx;
+}
+.icono{
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+}
+nav ul{
+    list-style: none;
+    text-decoration: none;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0.1em;
+    vertical-align: middle;
+    color: white;
+    text-decoration: none;
+}
+.hero__section {
+    text-align: right;
+     background-image: url(../img/bg-hero.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     color: #ffffff;
+     text-shadow: 2px 3px 2px #707070;
+     padding: 13.125rem 3.125rem;
+     
+
+}
+header h1{
+    color: white;
+    font-weight: 800;
+    font-size: 1.75em;
+}
+header p {
+    color: white;
+    font-size: 0,5em;
+    text-align: right;
+}
+
+body {
+    text-align: center;
+    margin: 0em;
+    padding: 0em;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.centrado {
+    margin: 20px 50px;
+}
+.img__centro{
+    margin: 50px auto 50px 50px
+
+}
+.donde {
+    align-content: center;
+    text-align: center;
+    margin: 80px
+
+}
+
+.recuadro{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    margin: 60px 0;
+    padding: 20px;
+    background-color: #a4452c;
+    text-align: left;
+    color: white;
+    padding-bottom: 20px;
+    
+    
+}
+.foto__mujer{
+    padding: 50px, 40px, 50px, 1000px;
+    padding:100px, 200px;
+    width: 35%;
+    
+}
+.foto__mujer, .charla__texto {
+    display: inline-block;
+    vertical-align: middle;
+
+    
+}
+.centrado__contenido{
+    margin: auto;
+    width: 60%;
+}
+
+.charla__texto{
+    width: 50%;
+    
+}
+.evento{
+    display: inline-block;
+    text-align: center;
+}
+#eventos__anteriores article{
+    width: 33%;
+}
+
+#eventos__anteriores article .titulo{
+    text-align: center;
+}
+footer {
+    padding-top: 30px;
+    height: 150px;
+    text-align: center;
+    background-color: black;
+    margin-top: 50px;
+}
+footer i {
+    margin: 0 0.5em 0.25em 0.5em 0.25;
+}
+
+i{
+    color: white;
+}
+footer p{
+    color: white;
+}
+.cuerpo{
+    margin: 30px 30%;
+    justify-content: center;
+    width: 50%;
+}
+.cuerpo__interior{
+    justify-content: center;
+    width: 100%;
+    padding-top: 15%;
+    background-size: cover;
+    
+}
+.cuerpo__interior, .foto__cuerpo{
+    text-align: left;
+    width: 100%;
+    justify-content: center;
+   
+}
+
+/*.img__centro{
+    margin-top: 25px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
