@@ -1,4 +1,19 @@
 /*navbar*/
+
+.navbar-light .navbar-nav .active>.nav-link{
+  color: #00b0aa !important;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: #CC0066;
+}
+/* #navbarNav ul a .nav-link {
+  color: #00b0aa !important;
+} */
+
+
+html{
+  scroll-behavior: smooth;
+}
 h1{
     font-family: 'Caveat', cursive !important;
     text-align: center;
@@ -64,6 +79,9 @@ body{
   align-content: center;
   text-align: center;
   padding: 40px;
+  text-align: justify;
+ 
+
   
 }
 .titulo_negro{
@@ -103,8 +121,8 @@ background-image: url(assets/img/ckl.jpg);
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
-width: 350px;
-height: 200px;
+width: 280px;
+height: auto;
 }
 .espacio_galeria{
   height: 50px;
@@ -151,8 +169,20 @@ padding-right: 7px;
 color: #ffffff;
 }
 
+
 @media (min-width: 600px) { 
   .sobremi {
       background-image: url(../img/imagen_principal.jpg);
   }
+
+  .texto {
+    padding: 40px 100px;
+  }
+
+}
+@media (min-width: 1200px) {
+  .texto {
+    padding: 40px 400px;
+  }
+
 }
